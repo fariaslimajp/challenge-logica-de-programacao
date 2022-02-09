@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador Oracle ONE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Decodificador Oracle ONE</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+        <input class="btn" type="submit" value="criptografar!" id="btn-cripto">
+        <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensagem criptografada:</h2>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <div class = "rodape" align="center">
+    <footer>
+      <address>
+        Este projeto foi desenvolvido por João Paulo Farias Lima. <br>
+        Utilizando como base os dados disponibilizados pela <a href="https://www.alura.com.br/">Alura</a> juntamente com a <a href="https://www.oracle.com/"> Oracle</a>.<br>
+        Qualquer bug ou melhoria, você pode enviar um e-mail para <a href="mailto:fariaslimajp@gmail.com"> fariaslimajp@gmail.com</a>.<br>    
+      </address>
+    </footer>
+  </div>
+  <script src="js/criptografia.js"></script>
+</body>
+</html>
